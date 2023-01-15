@@ -1,0 +1,11 @@
+.calculator {
+  padding: 10px;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.calculator .calculator__buttons {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
