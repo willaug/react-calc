@@ -17,5 +17,8 @@
         "react"
     ],
     "rules": {
+        "no-eval": "off",
+        "no-console": "off",
+        "no-restricted-globals": "off"
     }
 }

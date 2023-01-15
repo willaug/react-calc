@@ -1,0 +1,12 @@
+.display {
+  width: 100%;
+  font-size: 25px;
+  color: #f67280;
+  max-width: 260px;
+  font-weight: 300;
+  text-align: right;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+  background: #f3f3f3;
+  word-wrap: break-word;
+}

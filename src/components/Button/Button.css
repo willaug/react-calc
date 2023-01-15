@@ -1,11 +1,33 @@
 .button {
-  width: 50px;
   height: 50px;
   border: none;
+  min-width: 50px;
   font-size: 18px;
   color: #101010;
+  user-select: none;
   font-weight: 500;
   cursor: pointer;
+  transition: 250ms;
   border-radius: 25px;
   background: #f3f3f3;
+}
+
+.button:active {
+  background: #ccc;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
+}
+
+.button.operation {
+  color: #f67280;
+}
+
+.button.operation:active {
+  color: #f67280cc;
 }
